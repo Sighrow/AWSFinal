@@ -1,0 +1,11 @@
+   <div style="height: 15vh"></div>
+   <form class="form-signin" method="post" action="/register">
+      <h1 class="h3 mb-3 font-weight-normal">Register</h1>
+      {{#if message}}<p>{{message}}</p>{{/if}}
+      <input name="username" id="inputUsername" class="form-control" placeholder="Username" required autofocus>
+      <input name="email" type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus><br>
+      <input name="phone" id="inputPhone" class="form-control" placeholder="Phone: 999-999-9999" required autofocus><br>
+      <input name="password" type="password" id="inputPassword" class="form-control" placeholder="Password" required autofocus>
+      <input name="confirmpassword" type="password" id="inputConfirmPassword" class="form-control" placeholder="Confirm Password" required><br>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Sign Up</button>
+    </form>

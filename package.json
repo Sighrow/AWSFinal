@@ -1,0 +1,30 @@
+{
+  "name": "awsfinal",
+  "version": "1.0.0",
+  "description": "AWS Final Application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "*",
+    "express-handlebars": "*",
+    "cookie-parser": "*",
+    "body-parser": "*",
+    "express-validator": "*",
+    "nodemon": "*",
+    "express-session": "*",
+    "aws-sdk": "*",
+    "uuid": "*",
+    "passport": "*",
+    "passport-local": "*",
+    "dynamodb": "*",
+    "joi": "*",
+    "dynamoose": "*",
+    "drag-drop": "*",
+    "s3": "*"
+  },
+  "author": "Anthony Spano",
+  "license": "ISC"
+}
